@@ -1,0 +1,181 @@
+/* font Awesome 6 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ---------------- //GERAL --------------------- */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+h3 {
+    font-weight: 600;
+    }
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
+.col-sm-5, .col-sm-7 {
+    padding: 15px;
+    }
+
+#separador {
+    height: 2px; /* Altura da linha */
+    background-color: #e0e0e0; /* Cor cinza suave */
+    margin: 40px 0; /* Espaçamento acima e abaixo do separador */
+    border-radius: 2px; /* Deixa a linha com bordas suavemente arredondadas */
+    }
+    
+
+/* ---------------- //HEADER --------------------- */
+
+.topHeader {
+    background-color: #FF8C21;
+    padding: 20px 0;
+    text-align: center;
+    }
+
+#logo img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+
+/* ---------------- //PRIMÁRIO --------------------- */
+
+#conteudo_primario {
+    background: linear-gradient(to bottom, #FF8C21 50%, #FFFFFF 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+
+.banner img {
+    width: 100%;
+    height: 65vh;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 50px;
+    }
+
+
+/* ---------------- //SECUNDÁRIO --------------------- */
+
+#conteudo_secundario h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #FF8C21; /* Cor de fundo laranja */
+    padding: 5px; /* Espaçamento interno (topo/baixo e laterais) */
+    border-radius: 5px; /* Bordas arredondadas suaves */
+    display: inline-block; /* Garante que o fundo se ajuste ao tamanho do texto */
+    }
+
+.info-item {
+    display: flex;
+    align-items: flex-start; /* Alinha o ícone e o conteúdo ao topo */
+    padding: 15px 15px 0;
+    border: 1px solid #ddd; /* Borda para distinguir o item */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo do item */
+    margin-bottom: 20px; /* Espaço entre os itens */
+    }
+
+.info-item i {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #FF8C21; /* Cor do ícone */
+    margin-right: 15px; /* Espaço entre o ícone e o conteúdo */
+    }
+
+.info-content h3 {
+    font-size: 18px; /* Tamanho do título */
+    color: #333; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    }
+
+.info-content p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    color: #555; /* Cor do texto do parágrafo */
+    line-height: 1.6; /* Altura da linha do parágrafo */
+    }
+
+
+/* ---------------- //ACCORDION --------------------- */
+
+#accordion_section h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+.accordion-button:focus {
+    box-shadow: none!important
+    }
+
+.accordion-button {
+    background-color: #F2F2F2; /* Cor de fundo do botão */
+    color: #333; /* Cor do texto */
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    }
+
+.accordion-button:not(.collapsed) {
+    color: #1e1e1e;
+    background-color: #FF8C21;
+    }
+
+.accordion-body {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    }
+
+/* ---------------- //FOOTER --------------------- */
+footer {
+    background-color: #0e0e0e; /* Cor de fundo do footer */
+    padding: 20px 0 0px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo dentro do footer */
+}
+
+#logo {
+    display: flex;
+    justify-content: center; /* Garante que o logo seja centralizado */
+}
+
+#logo img {
+    max-width: 180px; /* Tamanho máximo da logo */
+    height: auto; /* Mantém a proporção da logo */
+}
+    
+.footer-text {
+    font-size: 14px; /* Tamanho do texto */
+    color: #fff; /* Cor do texto */
+    margin-top: 10px; /* Espaçamento acima do texto */
+}
