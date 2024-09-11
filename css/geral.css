@@ -21,7 +21,7 @@ p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     }
 
 .container {
@@ -58,7 +58,7 @@ p {
     }
 
 
-/* ---------------- //PRIMÁRIO --------------------- */
+/* ---------------- //BANNER PRINCIPAL --------------------- */
 
 #conteudo_primario {
     background: linear-gradient(to bottom, #FF8C21 50%, #FFFFFF 50%);
@@ -78,7 +78,7 @@ p {
     }
 
 
-/* ---------------- //SECUNDÁRIO --------------------- */
+/* ---------------- //INFORMATIVO --------------------- */
 
 #conteudo_secundario h2 {
     font-weight: 600;
@@ -120,6 +120,26 @@ p {
     line-height: 1.6; /* Altura da linha do parágrafo */
     }
 
+.btn-rounded {
+    background-color: #03632F; /* Cor de fundo */
+    color: #efefef; /* Cor do texto */
+    border: none; /* Remover borda padrão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    margin: 25px 0;
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: 600;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de clique */
+    transition: background-color 0.3s ease; /* Animação de hover */
+}
+
+.btn-rounded:hover {
+    background-color: #003811; /* Cor de fundo ao passar o mouse */
+}
+
 
 /* ---------------- //ACCORDION --------------------- */
 
@@ -156,6 +176,24 @@ p {
     color: #555;
     line-height: 1.6;
     }
+
+a {
+    color: #024723; /* Mantém a cor do texto padrão */
+    text-decoration: none; /* Remove o sublinhado */
+    }
+
+a:hover {
+    text-decoration: underline; /* Opcional: Adiciona sublinhado ao passar o mouse */
+    }
+
+/* ---------------- //ACCORDION INTERNO --------------------- */
+#nestedAccordionTwo .accordion-button {
+    background-color: #f5ede6; /* Cor de fundo personalizada */
+    color: #333; /* Cor do texto */
+    font-size: 16px;
+    font-weight: 700;
+    }
+
 
 /* ---------------- //FOOTER --------------------- */
 footer {
