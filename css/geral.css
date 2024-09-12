@@ -194,8 +194,7 @@ a:hover {
     }
 
 /* ---------------- //ACCORDION INTERNO --------------------- */
-#nestedAccordionTwo .accordion-button,
-#nestedAccordionFive .accordion-button {
+#nestedAccordionTwo .accordion-button, #nestedAccordionDates .accordion-button {
     background-color: #f5ede6; /* Cor de fundo personalizada */
     color: #333; /* Cor do texto */
     font-size: 16px;
