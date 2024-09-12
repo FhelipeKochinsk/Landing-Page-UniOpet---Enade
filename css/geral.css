@@ -178,7 +178,7 @@ p {
     }
 
 a {
-    color: #024723; /* Mantém a cor do texto padrão */
+    color: #05793d; /* Mantém a cor do texto padrão */
     text-decoration: none; /* Remove o sublinhado */
     }
 
@@ -186,8 +186,16 @@ a:hover {
     text-decoration: underline; /* Opcional: Adiciona sublinhado ao passar o mouse */
     }
 
+#enfase {
+    background-color: #FF8C21;
+    color: rgb(17, 17, 17);
+    padding: 2px;
+    border-radius: 3px;
+    }
+
 /* ---------------- //ACCORDION INTERNO --------------------- */
-#nestedAccordionTwo .accordion-button {
+#nestedAccordionTwo .accordion-button,
+#nestedAccordionFive .accordion-button {
     background-color: #f5ede6; /* Cor de fundo personalizada */
     color: #333; /* Cor do texto */
     font-size: 16px;

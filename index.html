@@ -100,7 +100,8 @@
                         <br>
                         <p>O Enade foi criado pela <strong>Lei 10.861</strong>, de 14 de abril de 2004, juntamente com o Sistema Nacional de Avaliação Superior.</p>
 
-                        <button class="btn-rounded">VER CRONOGRAMA</button>
+                        <!-- Em caso de necessidade de um botão utilize este e altere apenas o link -->
+                        <!-- <button class="btn-rounded" onclick="window.location.href='www.seulink.com.br';">VER CRONOGRAMA</button> -->
 
                     </div>
 
@@ -174,7 +175,7 @@
 
                         <h4 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                INSCRITOS
+                                🤓 | INSCRITOS
                             </button>
                         </h4>
 
@@ -248,12 +249,78 @@
                         </div>
                     </div>
 
+                    <!-- Item 5 -->
+                    <div class="accordion-item">
+
+                        <h4 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                📅 | CRONOGRAMAS
+                            </button>
+                        </h4>
+
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <p>Confira abaixo as principais datas do cronograma do ENADE:</p>
+
+                                <!-- Accordion Interno -->
+                                <div class="accordion" id="nestedAccordionDates">
+
+                                    <!-- Interno 1 -->
+                                    <div class="accordion-item">
+
+                                        <h4 class="accordion-header" id="nestedHeadingDateOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nestedCollapseDateOne" aria-expanded="false" aria-controls="nestedCollapseDateOne">
+                                                Aplicação da Avaliação Teórica (AT)
+                                            </button>
+                                        </h4>
+
+                                        <div id="nestedCollapseDateOne" class="accordion-collapse collapse" aria-labelledby="nestedHeadingDateOne" data-bs-parent="#nestedAccordionDates">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <p><a href="https://www.opet.com.br/storage/app/media/ENADE/2024/PDF/cronograma-aplicacao-da-avaliacao-teorica-at-pagina1.pdf" target="_blank">Ver cronograma</a></p>
+                                                    </li>
+                                                </ul>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Interno 2 -->
+                                    <div class="accordion-item">
+                                        <h4 class="accordion-header" id="nestedHeadingDateTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nestedCollapseDateTwo" aria-expanded="false" aria-controls="nestedCollapseDateTwo">
+                                                Realização da Avaliação da Prática (AP)
+                                            </button>
+                                        </h4>
+                                        <div id="nestedCollapseDateTwo" class="accordion-collapse collapse" aria-labelledby="nestedHeadingDateTwo" data-bs-parent="#nestedAccordionDates">
+                                            <div class="accordion-body">
+                                                
+                                                <ul>
+                                                    <li>
+                                                        <p><a href="https://www.opet.com.br/storage/app/media/ENADE/2024/PDF/cronograma-para-realizacao-da-avaliacao-da-pratica-ap-pagina1.pdf" target="_blank">Ver cronograma</a></p>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fim Accordion Interno para DATAS IMPORTANTES -->
+
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Item 2 -->
                     <div class="accordion-item">
 
                         <h4 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                O ENADE é obrigatório?
+                                🎯 | O ENADE é obrigatório?
                             </button>
                         </h4>
 
@@ -276,7 +343,7 @@
 
                         <h4 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Quem deve ser inscrito no Enade
+                                📢 | Quem deve ser inscrito no Enade
                             </button>
                         </h4>
 
@@ -288,6 +355,8 @@
                                 <p><strong>II - Concluintes de Cursos de Bacharelado e Licenciatura:</strong> Estudantes que completaram 80% ou mais da carga horária mínima do curso, conforme definido pelas IES, e ainda não colaram grau até o último dia do período de retificação de inscrições do Enade 2022, ou aqueles que terão 100% da carga horária integralizada até julho de 2023.</p>
 
                                 <p><strong>III - Concluintes de Cursos Superiores de Tecnologia:</strong> Alunos que completaram 75% ou mais da carga horária mínima do curso, conforme definido pela IES, e ainda não colaram grau até o último dia do período de retificação de inscrições do Enade 2022, ou aqueles que terão 100% da carga horária integralizada até dezembro de 2023.</p>
+
+                                <p>Confira se o seu curso está na lista de cursos obrigatórios: <a href="https://www.opet.com.br/storage/app/media/ENADE/2024/PDF/inscritos-alunos%20-%20P%C3%A1gina1.pdf" target="_blank"><strong id="enfase">//CLIQUE AQUI! </strong></a></p>
                                 
                             </div>
                         </div>
@@ -299,7 +368,7 @@
                         <h4 class="accordion-header" id="headingFour">
 
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                DISPENSA
+                                📌 | DISPENSA
                             </button>
 
                         </h4>
@@ -330,7 +399,7 @@
                         </div>
                     </div>
 
-                    <!-- ***NOVO ITEM | DUPLIQUE PARA ADICIONAR UM NOVO ITEM*** -->
+                    <!-- ***DUPLIQUE PARA ADICIONAR UM NOVO ITEM*** -->
                     <!-- <div class="accordion-item">
                         <h4 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
